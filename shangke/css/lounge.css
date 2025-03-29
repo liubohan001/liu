@@ -1,0 +1,18 @@
+h1, h2 {
+    font-size: 2rem;
+    color: gray;
+}
+h1 {
+    font-size: 3rem;
+    border-radius: lpx solid black;
+}
+p {
+    font-size: 1.5rem;
+    color: maroon;
+}
+body {
+    font-family: Arial;
+}
+html {
+    font-size: 16px;
+}
