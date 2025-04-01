@@ -4,7 +4,7 @@ h1, h2 {
 }
 h1 {
     font-size: 3rem;
-    border-radius: lpx solid black;
+    border-bottom: lpx solid black;
 }
 p {
     font-size: 1.5rem;
