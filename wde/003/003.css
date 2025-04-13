@@ -1,0 +1,9 @@
+P{
+    background-color: grey;
+    border: 1pc solid red;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em; 
+}
+body{
+    font-family: Verdana,Geneva,Arial;
+}
