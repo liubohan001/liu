@@ -51,6 +51,7 @@ p{
   border-bottom-left-radius: 2em; 
 }
 .elixirs {
+  float: right;
 	border-width: thin;
 	border-style: solid;
 	border-color: #007e7e;
@@ -97,5 +98,8 @@ color: red;
 }
 
 .d {
-color: blue;
+color: rgb(233, 188, 8);
+}
+p{
+  color: rgb(28, 176, 244);
 }
