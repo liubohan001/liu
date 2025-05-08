@@ -1,0 +1,17 @@
+body{
+    background-color: #302d2d;
+}
+h1{
+    color: #ffffff;
+    position:relative;
+    top: 80px;
+    font-size: 50px;
+}
+p{
+    color: #0fc22c;
+    position:relative;
+    top:60px;
+}
+h1,p{
+    text-align: center;
+}
