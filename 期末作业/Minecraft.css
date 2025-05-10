@@ -5,13 +5,36 @@ h1{
     color: #ffffff;
     position:relative;
     top: 80px;
-    font-size: 50px;
+    font-size: 55px;
 }
+a:link {
+    color: green;
+  }
+a:hover {
+    color: rgb(245, 245, 248);
+}
+a{
+    text-decoration: none;
+}
+  
 p{
-    color: #0fc22c;
     position:relative;
     top:60px;
 }
 h1,p{
     text-align: center;
+}
+.good{
+    width:800px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.mi{
+    position:relative;
+    width: 240px;
+    color: #ffffff;
+    margin: 100px 0px 0px 60px;
+}
+.ma{
+    position:relative;
 }
