@@ -8,7 +8,7 @@ h1{
     font-size: 55px;
 }
 a:link {
-    color: green;
+    color: rgb(74, 201, 74);
   }
 a:hover {
     color: rgb(245, 245, 248);
@@ -24,16 +24,10 @@ p{
 h1,p{
     text-align: center;
 }
-.good{
-    width:800px;
-    padding-top:5px;
-    padding-bottom:5px;
-}
 .mi{
     position:relative;
-    width: 240px;
-    color: #ffffff;
-    margin: 100px 0px 0px 60px;
+    padding: 15px;
+    margin: 100px 100px 100px 100px;
 }
 .ma{
     position:relative;
