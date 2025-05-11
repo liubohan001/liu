@@ -26,11 +26,23 @@ h1,p{
     font-family: 等线, Verdana, Arial, sans-serif;
 }
 .mi{
-    position:relative;
-    background:rgb(51, 51, 52) url(图片/1.avif);
+    position:absolute;
     padding: 20px;
     margin: 100px 20px 100px 20px;
     display: inline-block;
+}
+img{
+    margin: 12px;
     width: 320px;
     height: 320px;
+}
+.v{
+    position:relative;
+    background: #3c3b3b;
+    width: 320px;
+    height: 140px;
+    background-color: #3c3b3b;
+    opacity: 0.7;
+    margin: 100px 20px 100px 20px;
+    color: #ffffff;
 }
