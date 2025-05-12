@@ -27,10 +27,26 @@ h1,p{
 }
 .mi{
     position:relative;
-    background:rgb(51, 51, 52) url(图片/1.avif);
-    padding: 20px;
-    margin: 100px 20px 100px 20px;
     display: inline-block;
-    width: 320px;
-    height: 320px;
 }
+img{
+    width: 100%;
+    height: auto;
+}
+.o{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.mi:hover .o{
+    opacity: 1;
+}
+
+
