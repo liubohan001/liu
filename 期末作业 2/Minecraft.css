@@ -85,4 +85,18 @@ h2{
 p1{
     font-size: 15px;
 }
+.a,.b,.c,.v{
+    line-height: 1;
+    font-size: -100px;
+}
+h3{
+    background:rgb(245, 245, 248);
+    display: inline-block;  
+    color: #1c1b1b;
+}
+h2,h3,p1{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: 20px;
+}
 
