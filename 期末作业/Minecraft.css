@@ -25,28 +25,3 @@ h1,p{
     text-align: center;
     font-family: 等线, Verdana, Arial, sans-serif;
 }
-.mi{
-    position:relative;
-    display: inline-block;
-}
-img{
-    width: 100%;
-    height: auto;
-}
-.o{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
-    padding: 10px;
-    box-sizing: border-box;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
-.mi:hover .o{
-    opacity: 1;
-}
-
-
