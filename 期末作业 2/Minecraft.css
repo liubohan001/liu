@@ -167,13 +167,6 @@ h2,h3,h4{
     height: 100px;
     margin: 1200px 52px 1200px 52px;
 }
-.kuliba{
-    position:relative   ;
-    margin: 1000px 52px 1000px 52px;
-    padding: 20px;
-    width: 40px;
-    height: 40px;
-}
 h5,h6{
     color: #ffffff;
     margin-left: 30px;
@@ -185,4 +178,3 @@ h5{
 h6{
     font-size: 13px;
 }
-
