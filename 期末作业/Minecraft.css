@@ -53,3 +53,19 @@ h4{
 h2,h4{
     color: #ffffff;
 }
+.go{
+    position:relative;
+    background: #1c1b1b;
+    width: 320px;
+    height: 140px;
+    background-color: #1c1b1b;
+    opacity: 0.7;
+}
+h3{
+    position: relative;
+    background: ghostwhite;
+    width: 80px;
+    height: 15px;
+    background-color: ghostwhite;
+    opacity: 0.7;
+}
