@@ -5,7 +5,7 @@ h1{
     color: #ffffff;
     position:relative;
     top: 80px;
-    font-size: 55px;
+    font-size: 57px;
 }
 a:link {
     color: rgb(74, 201, 74);
@@ -20,6 +20,7 @@ a{
 p{
     position:relative;
     top:60px;
+    font-size: 17px;
 }
 h1,p{
     text-align: center;
@@ -28,8 +29,9 @@ h1,p{
 .dae{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    margin: 110px 60px 110px 60px;
+    justify-content:left;
 }
 .m{
     position: relative;
@@ -38,8 +40,8 @@ h1,p{
     width: 320px;
 }
 .m img{
-    width: 320px;
-    height: 320px;
+    width: 330px;
+    height: 330px;
 }
 h3{
     font-size: 13px;
@@ -54,13 +56,20 @@ h2,h4{
     color: #ffffff;
 }
 .go{
-    position:relative;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+    transition: bottom 0.7s ease;
+    overflow: hidden;
+    line-height: 1;
+    font-size: -100px;
     background: #1c1b1b;
     width: 320px;
-    height: 140px;
+    height: 150px;
     background-color: #1c1b1b;
     opacity: 0.7;
-    margin-top: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
 }
 h3{
     position: relative;
@@ -69,18 +78,60 @@ h3{
     height: 15px;
     background-color: ghostwhite;
     opacity: 0.7;
-}
-.go{
-    position:absolute;
-    bottom: 0;
-    width: 100%;
-    height: 145px;
-    box-sizing: border-box;
-    transition: bottom o.5s ease;
-    overflow: hidden;
-    line-height: 1;
-    font-size: -100px;
+    display: inline;
+    padding: 5px;
 }
 .dae,.m:hover .go{
     bottom: 10%;
+}
+.ku img{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.ku{
+    position: relative;
+    margin-left: 60px;
+    margin-bottom: -30px;
+}
+.kuli{
+    position: absolute;
+    background: #131212;
+    width: 1380px;
+    height: 130px;
+    background-color: #131212;
+    opacity: 0.7;
+    border-top:5px solid #040404;
+    border-bottom: 5px solid #575353;
+    border-left: 5px solid #575353;
+}
+h5,h6{
+    color: #ffffff;
+    padding-left: 140px;
+    padding-top: 4px;
+    font-size: 15px;
+    text-align: 20px;
+    margin-bottom: -35px;
+}
+h7{
+    color: #ffffff;
+    box-shadow: 0 0 0 3px #ffffff;
+    background-color: #1c1b1b;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 1140px;
+    margin-top: -25px;
+
+}
+h7 a:link {
+    color: rgb(253, 255, 253);
+  }
+h7 a:hover {
+    color: rgb(11, 11, 11);
+    background-color: #ffffff;
+}
+a{
+    text-decoration: none;
 }
