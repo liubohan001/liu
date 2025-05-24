@@ -1,0 +1,71 @@
+body{
+  background-color:black;
+  overflow-x: hiddens;
+}
+.table{
+  float: right;
+  position: relative;
+  top:150px;
+  right:0px;
+}
+h1{
+  position: relative;
+  color: white;
+  top:150px;
+  left:200px;
+}
+.p{
+  position: relative;
+  color: white;
+  top:150px;
+  left:150px;
+}
+.button{
+  color: green;
+  position: relative;
+  top:150px;
+  left:170px;
+  text-decoration: none;
+}
+.button:hover {
+  color: white;
+}
+.tr{
+  color: white;
+  position: relative;
+  top:-80px;
+  right:0px;
+}
+.home{
+  position: relative;
+  top:160px;
+  left:150px;
+  color: gray;
+}
+.back{
+  position: relative;
+  top:156px;
+  left:150px; 
+}
+
+.answer{
+  position: relative;
+  float: right;
+  top:110px;
+  right:-490px;
+}
+.way{
+  position: relative;
+  float: right;
+  top:110px;
+  right:-270px;
+}
+.on{
+  position: relative;
+  float: right;
+  top:110px;
+  right:-825px;
+}
+.zty:hover{
+  color: green;
+}

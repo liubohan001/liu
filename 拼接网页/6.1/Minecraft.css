@@ -1,0 +1,52 @@
+.Minecraht-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.img{
+    position: relative;
+    top: 160px;
+    left: 90px;
+    width: 700px;
+    height: 600px;
+
+}
+
+
+h1 {
+    color: white;
+    margin: 0;
+    float: right;
+    position: relative;
+    right: 475px;
+    top: 350px;
+    font-size: 20px;
+}
+
+.Minecraft {
+    color: white;
+    margin: 0;
+    float: right;
+    position: relative;
+    right: 200px;
+    top: 400px;
+}
+
+body {
+    background-color: rgb(49, 49, 49);
+}
+.button {
+    color: white;
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 510px;
+    padding:5 100 5 100 ;
+    background: green;
+    border:1px solid gray ;
+    text-decoration: none;
+}
+.button:hover {
+    background: rgb(1, 78, 1);
+}
