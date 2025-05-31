@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="zyb.css?v=1">
+    <title>Welcome to the Minecraft Official Site | Minecraf</title>
+</head>
+<body>
+    <div class="z1">
+    <div class="header">
+        <a href="file:///F:/16Zhuangtianyou/MyWork/zy/zya.html#game" target="_blank"> 
+            <img src="Global-Header_MCCB-Logo_300x51.svg" alt="Logo" class="custom-logo">
+        </a>
+        <nav>
+            <ul>
+                <li class="m">
+                    <a href="#game">GAME</a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content">
+                            <div class="link-container-left">
+                                <a href="#">Minecraft</a>
+                                <a href="#">Minecraft Dungeons</a>
+                                <a href="#">Minecraft Legends</a>
+                                <a href="#">Minecraft Education</a>
+                                <!-- 将两个超链接移动到此处 -->
+                                <a href="https://example.com/link1">Go to Downloads 1</a>
+                                <a href="https://example.com/link2">Redeem a Gift Code 2</a>
+                            </div>
+                            <div class="image-container">
+                                <a href="">
+                                <img src="Global-Header_Image-Tile_MC-Java-Bedrock_570x321.jpg" alt="Image 1">
+                                <p>Minecraft</p>
+                                <p>Explore your own unique world, survive the night, and create
+                                    anything you can imagine!</p>
+                                </a>
+                                <a href="">
+                                <img src="Global-Header_Image-Tile_Marketplace_321x321.avif" alt="Image 2">
+                                <p>Marketplace</p>
+                                <p>Keep your gameplay endlessly
+                                    inventive and fun.</p>
+                                </a>
+                                <a href="">
+                                <img src="Global-Header_Image-Tile_Realms_321x321.avif" alt="Image 3">
+                                <p>Minecraft healMs</p>
+                                <p>Play with your friends on your own
+                                    personal server.</p>
+                                </a>
+                            </div>
+                            <div class="link-container">
+                                <a href="#">Buy Mineoraft</a>
+                                <a href="#">Buy Mineoraft Triple Bundle</a>
+                                <a href="#">Marketplace pass</a>
+                                <a href="#">New to Mineoraft?</a>
+                                <a href="#">Servers</a>
+                                <a href="#">Try Mineoraft Free</a>
+                                <a href="#">Play Mineoraft Classio</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="d">
+                    <a href="#shop">SHOP</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Shop Item 1</a>
+                        <a href="#">Shop Item 2</a>
+                    </div>
+                </li>
+                <li class="l">
+                    <a href="#community">COMMUNITY</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Community Post 1</a>
+                        <a href="#">Community Post 2</a>
+                    </div>
+                </li>
+                <li class="e">
+                    <a href="#sport">SPORT</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Sport Event 1</a>
+                        <a href="#">Sport Event 2</a>
+                    </div>
+                </li>
+                <li class="r">
+                    <a href="#search" id="searchTrigger">SEARCH</a>>
+                </li>
+                <li class="g">
+                    <a href="#account" id="accountTrigger">ACCOUNT</a>
+                    <div class="account-dropdown" id="accountDropdown">
+                        <a href="#">SIGN IN</a>
+                        <a href="#">REDEEM</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="search-panel" id="searchPanel">
+        <div class="search-box">
+            <h3>Search</h3>
+            <input type="text" placeholder="Search itinerant.net">
+        </div>
+        
+        <div class="section">
+            <h3>Popular Discoveries</h3>
+            <div class="popular">MUSEARMY</div>
+        </div>
+        
+        <div class="section">
+            <h3>Other Videos</h3>
+            <ul class="video-list">
+                <li>Hinocraft</li>
+                <li>Skins & DLC</li>
+                <li>Change Java Skins & Cages</li>
+                <li>Hinocraft Reales</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        const searchTrigger = document.getElementById('searchTrigger');
+        const searchPanel = document.getElementById('searchPanel');
+        let timer;
+
+        searchTrigger.addEventListener('mouseenter', () => {
+            clearTimeout(timer);
+            searchPanel.style.display = 'block';
+        });
+
+        searchTrigger.addEventListener('mouseleave', () => {
+            timer = setTimeout(() => {
+                searchPanel.style.display = 'none';
+            }, 100); 
+        });
+
+        searchPanel.addEventListener('mouseenter', () => {
+            clearTimeout(timer);
+        });
+
+        searchPanel.addEventListener('mouseleave', () => {
+            timer = setTimeout(() => {
+                searchPanel.style.display = 'none';
+            }, 100); 
+        });
+
+        const dropdownItems = document.querySelectorAll('nav ul li');
+        dropdownItems.forEach(item => {
+            const dropdownMenu = item.querySelector('.dropdown-menu');
+            let timer;
+            if (dropdownMenu) {
+                item.addEventListener('mouseenter', () => {
+                    clearTimeout(timer);
+                    dropdownMenu.style.display = 'block';
+                });
+                item.addEventListener('mouseleave', () => {
+                    timer = setTimeout(() => {
+                        dropdownMenu.style.display = 'none';
+                    }, 100); 
+                });
+            }
+        });
+    </script>
+    </div>
+    <div class="x2">
+        <header>
+            <img src="images/1.avif" >
+          </header>
+          <h2 class="MC_Heading_3   ">
+            Have "Normal Cloak"
+          </h2>
+          <div class="f"></div>
+          <div class="c"></div>
+          <div class="d"></div>
+          <p>
+            Sign in to Minecraft Bedrock Edition with your
+            Microsoft account to get a "regular cape"! Log in now 
+            to show off this elegant cape.
+            
+            <span class="a">
+              <a class="e" href="">SEE HOW</a>
+              <a class="q" href="">Get minecraft ↗</a>
+            </span>
+            
+          </p>
+          <span>
+            <a class="tp1" href="">    <img src="images/Minecraft_CommonCape_.Net_220x97_.avif"></a>
+          </span>
+          <span>
+            <a class="tp2" href="">    <img src="images/Minecraft_TripleBundle_NetHomepage_220x97.webp"></a> 
+          </span>
+          <span >
+            <a class="tp3" href="">    <img src="images/MC_SandstormDLC_NetHomepagePromo_220x97.avif"></a>
+          </span>
+          <span >
+            <a class="tp4" href="">    <img src="images/Homepage_Thumbnail_Realms_220x97_01.avif"></a> 
+          </span> 
+        
+    </div>
+    <div class="y3">
+        <div class="MC">
+            <h1 class="MC_Heading_1">
+                  DISCOCER OUR GAMES
+            </h1>
+            <a href="file:///E:/myWork/%E4%BB%BF%E7%AB%99/1">Get all 3 Minecraft games with the Triple Bundle &gt;</a>
+            <!-- 开始 div.MC_Heading_2，用于展示游戏相关图片和后续内容 -->
+            <div class="MC_Heading_2">
+              <img src="./images/diyi.png" alt="Minecraft images">
+              <img src="./images/dier.png" alt="Minecraft images">
+              <img src="./images/disan.png" alt="Minecraft images">
+              <img src="./images/disi.png" alt="Minecraft images">
+              <!-- 开始 div.title_k，用于布局不同游戏的信息 -->
+              <div class="title_k">
+                <!-- 开始第一个游戏信息块 div.title_m，这里展示 Minecraft 游戏信息 -->
+                <div class="title_m">
+                  <p class="title_m">
+                    Sandbox Survival, Adventure
+                    <br>
+                    Single-player + Multiplayer
+                  </p>
+                  <h2>Minecraft</h2>
+                  <!-- 开始 div.Mime，用于展示与 Minecraft 游戏相关的小图标 -->
+                  <div class="Mime">
+                    <img src="./images/first.png" alt="Minecraft images">
+                    <img src="./images/second.png" alt="Minecraft images">
+                    <img src="./images/third.png" alt="Minecraft images">
+                    <img src="./images/fourth.png" alt="Minecraft images">
+                    <img src="./images/fifth.png" alt="Minecraft images">
+                    <img src="./images/sixth.png" alt="Minecraft images">
+                    <img src="./images/seventh.png" alt="Minecraft images">
+                    <img src="./images/eighth.png" alt="Minecraft images">
+                    <img src="./images/ninth.png" alt="Minecraft images">
+                  </div> <!-- 结束 div.Mime -->
+                </div> <!-- 结束第一个 div.title_m -->
+                <!-- 开始第二个游戏信息块 div.title_m，这里展示 Minecraft Dungeons 游戏信息 -->
+                <div class="title_m">
+                  <p class="title_m">
+                    Dungeon Crawl, Action RPG
+                    <br>
+                    Single-player + Multiplayer
+                  </p>
+                  <h2>Minecraft Dungeons</h2>
+                </div> <!-- 结束第二个 div.title_m -->
+                <!-- 开始 div.Mime2，用于展示与 Minecraft Dungeons 游戏相关的小图标 -->
+                <div class="Mime2">
+                  <img src="./images/first.png" alt="Minecraft images">
+                  <img src="./images/third.png" alt="Minecraft images">
+                  <img src="./images/fourth.png" alt="Minecraft images">
+                  <img src="./images/fifth.png" alt="Minecraft images">
+                  <img src="./images/tenth.png" alt="Minecraft images">
+                </div> <!-- 结束 div.Mime2 -->
+                <!-- 开始第三个游戏信息块 div.title_m，这里展示 Minecraft Legends 游戏信息 -->
+                <div class="title_m">
+                  <p class="title_m">
+                    Action RPG, Strategy
+                    <br>
+                    Single-player + Multiplayer
+                  </p>
+                  <!-- 开始 div.Mime3，用于展示与 Minecraft Legends 游戏相关的小图标 -->
+                  <div class="Mime3">
+                    <img src="./images/first.png" alt="New Minecraft Image">
+                    <img src="./images/third.png" alt="New Minecraft Image">
+                    <img src="./images/fourth.png" alt="New Minecraft Image">
+                    <img src="./images/fifth.png" alt="New Minecraft Image"> 
+                    <img src="./images/tenth.png" alt="New Minecraft Image">
+                  </div> <!-- 结束 div.Mime3 -->
+                  <h2>Minecraft Legends</h2>
+                </div> <!-- 结束第三个 div.title_m -->
+                <!-- 开始第四个游戏信息块 div.title_m，这里展示 Minecraft Edition 游戏信息 -->
+                <div class="title_m">
+                  <p class="title_m">
+                    Education, Sandbox Survival, Adventure
+                    <br>
+                    Single-player + Multiplayer
+                  </p>
+                  <h2>Minecraft Edition</h2>
+                  <!-- 开始 div.Mime4，用于展示与 Minecraft Edition 游戏相关的小图标 -->
+                  <div class="Mime4">
+                    <img src="./images/first.png" alt="New Minecraft Image">
+                    <img src="./images/sixth.png" alt="New Minecraft Image">
+                    <img src="./images/eighth.png" alt="New Minecraft Image">
+                    <img src="./images/seventh.png" alt="New Minecraft Image">
+                  </div>  <!-- 结束 div.Mime4 -->
+                </div> <!-- 结束第四个 div.title_m -->
+              </div> <!-- 结束 div.title_k -->
+            </div> <!-- 结束 div.MC_Heading_2 -->
+          </div> <!-- 结束 div.MC -->
+              <!-- 开始 div.Mca，用于展示市场插件相关信息 -->
+              <div class="Mca"> 
+              <div class="MC_Heading_3">
+                  MARKETPLACE ADD-<br>
+                  ONS
+              </div>
+                <p class="white-text">
+                  Now there are even more ways to change your Bedrock<br> game, your way!
+                  Explore the new free and paid add-ons<br> at Minecraft Marketplace today.
+                </p>
+                <!-- 开始 div.Mer，用于包裹探索市场插件的按钮 -->
+                <div class="Mer">
+                  <a href="file:///E:/myWork/%E4%BB%BF%E7%AB%99/1" class="explore-button">
+                    EXPLORE<br> 
+                    MARKETPLACE
+                    <span class="arrow"></span>
+                  </a>
+                </div> <!-- 结束 div.Mer -->
+                <!-- 开始 div.Mer2，用于展示新的 Minecraft 相关图片 -->
+                <div class="Mer2">
+                  <img src="./images/eleventh.png" alt="New Minecraft Image">
+                  <img src="./images/thirteenth.png" alt="New Minecraft Image">
+                  <img src="./images/fourteenth.png" alt="New Minecraft Image">
+                  <img src="./images/Thumbnail_0.jpg" alt="New Minecraft Image">
+                </div> <!-- 结束 div.Mer2 -->
+               <div class="flex-container">
+                <div class="content-block">
+                  <h3>WARDEN WEAPONS Add-On</h3>
+                  <p>by SNDBX</p>
+                  <img src="./images/minecoin.png" alt="New Minecraft Image">
+                  <span>990</span>
+               </div>
+    
+              <div class="content-block">
+                <h3>Advanced Hearts Add-On3</h3>
+                <p>by Rainbow Theory</p>
+               <img src="./images/minecoin.png" alt="New Minecraft Image">
+                <span>310</span>
+              </div>
+              <div class="content-block">
+                <h3>Craftable Houses Add-On</h3>
+                <p>by Pickaxe Studios</p>
+                <img src="./images/minecoin.png" alt="New Minecraft Image">
+                <span>660</span>
+              </div>
+              <div class="content-block">
+                <h3>Death Animations Add-On</h3>
+                <p>by Logdotzip</p>
+                <img src="./images/minecoin.png" alt="New Minecraft Image">
+                <span>660</span>
+              </div>
+            </div>
+              <div class="arrow-contain">
+                <img src="./images/zuo.png" alt="New Minecraft Image">
+              </div>
+              <div class="arrow-container">
+                <img src="./images/you.png" alt="New Minecraft Image">
+              </div>
+            </div>
+              <!-- 添加自定义类名 -->
+              <img class="wide-image" src="./images/scng.png" alt="New Minecraft Image"> 
+    </div>
+    <div class="c41">
+        <h1>
+            Gameplay Trailers
+          </h1>
+             <div class="back">
+               <p>Minecraft</p> 
+               <P>Minecraft Dungeons</P>
+               <P>Minecraft Legends</P>
+               <p>Minecraft Education</p>
+             </div>
+              <video src="Homepage_Gameplay-Trailer_MC-OV_1080x720.webm" autoplay muted loop width="700" height="600"></video>
+               <a class="thetrailer" href="t.html">watch thetrailer</a>
+                <div class="head">
+                 <h2>Explore your own unique worlds, survive the night, and create anything you can imagine!</h2>
+                 <h3>Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to see the full video on YouTube.</h3>
+                </div>
+                 <a class="nod" href="t.html">LEARN MORE</a>
+    </div>
+    <div class="l5">
+        <div>
+            <h1>WHAT'S NEW</h1>
+            <p><a href="good.html">See all the news ↗</a></p>
+          </div>
+          <div class="dae">
+            <div class="m">
+              <img src="图片/1.avif" alt="图片2">
+              <div class="go">
+                <h3>DEEP DIVE5</h3>
+                <h2>Causing a Cold Commotion</h2>
+                <h4>Chapter 2 Takes us Somewhere New</h4>
+              </div>
+            </div>
+            <div class="m">
+              <img src="图片/2.avif" alt="图片3">
+              <div class="go">
+                <h3>DEEP DIVE5</h3>
+                <h2>Block of the Month: Red Mushroom</h2>
+                <h4>Build yourself a massive fungal home</h4>
+              </div>
+            </div>
+            <div class="m">
+              <img src="图片/3.avif" alt="图片3">
+              <div class="go">
+                <h3>NEW5</h3>
+                <h2>Minecraft Bedrock Edition 1.21.80</h2>
+                <h4>Minecraft Bedrock Edition 1.21.80 Update</h4>
+              </div>
+            </div>
+            <div class="m">
+              <img src="图片/4.jpg" alt="图片4">
+              <div class="go">
+                <h3>NEW5</h3>
+                <h2>Minecraft Snapshot 25w19a</h2>
+                <h4>A Minecraft Java Shapshot</h4>
+              </div>
+            </div>
+            <div class="m">
+              <img src="图片/5.webp" alt="图片5">
+              <div class="go">
+                <h3>NEW5</h3>
+                <h2>Dreamscape Escape</h2>
+                <h4>chapter 4:We're Back for More</h4>
+              </div>
+            </div>
+            <div class="m">
+              <img src="图片/6.avif" alt="图片6">
+              <div class="go">
+                <h3>NEW5</h3>
+                <h2>Flat world presets for Bedrock</h2>
+                <h4>Explore a Snowy Kingdom, a Bottomless Pit, and more!</h4>
+              </div>
+            </div>
+            <div class="m">
+              <img src="图片/7.avif" alt="图片7">
+              <div class="go">
+                <h3>DEEP DIVE5</h3>
+                <h2>Simply the Best</h2>
+                <h4>Chapter 3:More Things to See</h4>
+              </div>
+            </div>
+            <div class="m">
+              <img src="图片/8.avif" alt="图片8">
+              <div class="go">
+                <h3>DEEP DIVE5</h3>
+                <h2>Building Blocks:Abandoned Village</h2>
+                <h4>Wait,where did everyone go?</h4>
+              </div>
+            </div>
+            <div class="m">
+              <img src="图片/9.avif" alt="图片9">
+              <div class="go">
+                <h3>MARKETPLACE</h3>
+                <h2>Marketplace Content:May 2025</h2>
+                <h4>Let's channel surf this month's Marketplace Pass and Realms Plus</h4>
+              </div>
+            </div>
+            <div class="m">
+              <img src="图片/10.avif" alt="图片10">
+              <div class="go">
+                <h3>NEW5</h3>
+                <h2>Craftable saddies and fresh music</h2>
+                <h4>Make travel prep a breeze while you enjoy smooth tunes</h4>
+              </div>
+            </div>
+          </div>
+          <div class="ye">
+            <div class="ku">
+              <div class="kuli">
+                <h5>Need to re-download?</h5>
+                <h6>Already own a game,but need a launcher? Looking for a Linux distribution or server file? Please check the </h6>
+                <h6>Downloads page.</h6>
+                <h7><a href="dod.htmlO">GO TO DOWNLOADS 》</a></h7>
+              </div>
+              <img src="图片/ku.avif" alt="图片11">
+            </div>
+          </div>
+    </div>
+    <div class="h61">
+        <div class="Minecraft-container">
+            <h1>Change Your Game, your way!</h1>
+            </div> 
+            <ul class="Minecraft">
+              <li>Whethr it's more cuteness,</li>
+              <li>comedy, or chaos you want,</li>
+              <li>there's an add-on for you!</li>
+              <li>Choose from the mant new free</li>
+              <li>and paid add-ons.</li>
+              </ul>
+              <img class="img" src="images/2.jpg">
+            <div>
+            <a class="button" href="1.html" >EXPLORE ADD-ONS</a>
+          </div>  
+    </div>
+    <div class="c42">
+        <!-- 订阅表单容器 -->
+    <div class="subscription-box">
+        <h2>Get the latest Minecraft news! </h2>
+        
+        <!-- 表单描述文本 -->
+        <p class="description">
+         Enter your email address, select your country or region, and submit. Opt out at any time. We promise not to spam you.
+        </p>
+
+        <div class="form-row"> <!-- 新增包裹容器 -->
+            <!-- 邮箱输入组 -->
+            <div class="form-group">
+                <label class="required">
+                    Email Address
+                    <input type="email" required placeholder="">
+                </label>
+            </div>
+
+            <!-- 国家选择组 -->
+            <div class="form-group">
+                <label class="required">
+                    Country/Region
+                    <select required>
+                        <option value="" disabled selected>Choose One</option>
+                        <option value="US">United States</option>
+                        <option value="CN">China</option>
+                        <option value="JP">Japan</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="DE">Germany</option>
+                        <option value="FR">France</option>
+                        <option value="CA">Canada</option>
+                        <option value="AU">Australia</option>
+                        <option value="KR">South Korea</option>
+
+                        <!-- 可以继续添加更多国家选项 -->
+                    </select>
+                </label>
+            </div>
+        </div>
+
+        <!-- 协议勾选框组 -->
+            <div class="checkbox-group">
+                    By opting in, you agree to receive communications from Minecraft. You can always unsubscribe.
+            </div>
+
+            <!-- 隐私条款勾选框组 -->
+            <div class="checkbox-group">
+                    Quisiera información, consejos y ofertas sobre Minecraft. <a href="#"> Privacy Statement.</a>。
+            </div>
+
+            <!-- 表单提交按钮 -->
+            <button type="submit" class="submit-btn">Submit</button>
+    </div> 
+    </div>
+    <div class="h62">
+        <div class="table"><!-- 表格 -->
+            <table> 
+              <tr class="img">
+                <th> <img src="images/3.jpg" height="300" width="250"></th>
+                <th> <img src="images/4.jpg" height="300" width="250"></th>
+                <th> <img src="images/5.jpg" height="300" width="250"></th>
+                <th> <img src="images/6.jpg" height="300" width="250"></th>
+              </tr>
+              <tr class="tr">
+                <th>WALLPAPERS</th>
+                <th>WALLPAPERS</th>
+                <th>WALLPAPERS</th>
+                <th>WALLPAPERS</th>
+              </tr>
+              <tr class="tr">
+                <th>15-years</th>
+                <th>Minecraft</th>
+                <th>Minecraft</th>
+                <th>Minecraft</th>
+              </tr>
+              <tr class="tr">
+                <th>Anniversary</th>
+                <th>Collection</th>
+                <th>Dungeons</th>
+                <th>Legends</th>
+              </tr>
+            </table>
+          </div>
+          <div class="body"><!-- 文字 -->
+            <h1>COLLECTIBLES</h1>
+            <ul class="p">
+              <P>
+                <li>The world of Minecraft is vast, so why not take</li>
+                <li>it beyond its blocky borders? Customize your</li>
+                <li>device with our favorite Minecraft wallpapers,</li>
+                <li>social banners, and more!</li>
+              </P> 
+            </ul>
+          <a class="button" href="See all collectibles.html" >See all collectibles</a>
+          </div>
+          <div>
+            <a class="zty" href="1"><img class="home" src="images/7.jpg"></a>
+            <a class="zty" href="1"><img class="back" src="images/8.jpg"></a>
+          </div>
+          <div ><!-- 下载按钮 -->
+            <img class="answer" src="images/9.jpg" height="30" width="30">
+            <img class="way" src="images/9.jpg" height="30" width="30">
+            <img class="on" src="images/9.jpg" height="30" width="30">
+          </div>
+    </div>
+    <div class="j7">
+        <footer class="site-footer">
+            <!-- 顶部：社交媒体图标 -->
+            <div class="footer-top">
+              <h4>FOLLOW MINECRAFT</h4>
+              <div class="social-icons">
+                <!-- 使用占位图像或 Font 图标 -->
+                 <div class="YouTube">
+                <a href="#" class="social-icon" title="YouTube">
+                  <img src="images.7/2.png" alt="YouTube">
+                </a>
+              </div>
+              <div class="Instagram">
+                <a href="#" class="social-icon" title="Instagram">
+                  <img src="images.7/3.png" alt="Instagram">
+                </a>
+              </div>
+              <div class="Facebook">
+                <a href="#" class="social-icon" title="Facebook">
+                  <img src="images.7/4.png" alt="Facebook">
+                </a>
+              </div>
+              <div class="Twitter">
+                <a href="#" class="social-icon" title="X (Twitter)">
+                  <img src="images.7/1.png" alt="X (Twitter)">
+                </a>
+              </div>
+              <div class="TikTok">
+                <a href="#" class="social-icon" title="TikTok">
+                  <img src="images.7/5.png" alt="TikTok">
+                </a>
+              </div>
+              <div class="WhatsApp">
+                <a href="#" class="social-icon" title="WhatsApp">
+                  <img src="images.7/6.png" alt="WhatsApp">
+                </a>
+              </div>
+              <div class="Discord">
+                <a href="#" class="social-icon" title="Discord">
+                  <img src="images.7/7.png" alt="Discord">
+                </a>
+              </div>
+              </div>
+            </div>
+          
+            <!-- 中部：主要内容区（左侧标志，中间链接栏目，右侧评级图像） -->
+            <div class="footer-main">
+              <!-- 左侧：Mojang 和 Xbox 标志 -->
+              <div class="footer-left">
+                <img src="images.7/Mojang2020Logo.png" alt="Mojang Studios Logo" class="logo">
+                <img src="images.7/Logo_Xbox_Game_Studio.png" alt="Xbox Game Studios Logo" class="logo">
+                <p>© 2025 Mojang AB, TM Microsoft Corporation.</p>
+                <a href="#">Minecraft Usage Guidelines</a>
+              </div>
+          
+              <!-- 中间：多个链接栏目 -->
+              <div class="footer-center">
+                <!-- Games 栏 -->
+                <div class="footer-column">
+                  <h3>Games</h3>
+                  <ul>
+                    <li><a href="#">Minecraft</a></li>
+                    <li><a href="#">Minecraft Dungeons</a></li>
+                    <li><a href="#">Minecraft Legends</a></li>
+                    <li><a href="#">Minecraft Education</a></li>
+                  </ul>
+                </div>
+                <!-- Community 栏 -->
+                <div class="footer-column">
+                  <h3>Community</h3>
+                  <ul>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Creator Learning Portal</a></li>
+                    <li><a href="#">Mojang Studios Careers</a></li>
+                    <li><a href="#">Build a Better World</a></li>
+                    <li><a href="#">A Minecraft Movie</a></li>
+                  </ul>
+                </div>
+                <!-- Shop 栏 -->
+                <div class="footer-column">
+                  <h3>Shop</h3>
+                  <ul>
+                    <li><a href="#">Marketplace</a></li>
+                    <li><a href="#">Minecraft Shop</a></li>
+                  </ul>
+                </div>
+                <!-- Support 栏 -->
+                <div class="footer-column">
+                  <h3>Support</h3>
+                  <ul>
+                    <li><a href="#">Tips for Beginners</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li><a href="#">Site Map</a></li>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+                <!-- Account 栏 -->
+                <div class="footer-column">
+                  <h3>Account</h3>
+                  <ul>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Redeem</a></li>
+                  </ul>
+                </div>
+              </div>
+          
+              <!-- 右侧：ESRB 评级图像 -->
+              <div class="footer-right">
+                <img src="images.7/55.png" alt="ESRB Rating">
+              </div>
+            </div>
+          
+            <!-- 底部：语言选择和法律信息 -->
+            <div class="footer-bottom">
+              <!-- 语言选择器 -->
+              <div class="language-selector">
+                <button id="language-button">🌐 English ⌄</button>
+                <ul id="language-list">
+                  <li>English</li>
+                  <li>中文</li>
+                  <li>Español</li>
+                  <li>Français</li>
+                  <li>Deutsch</li>
+                  <li>日本語</li>
+                  <li>한국어</li>
+                  <li>Português</li>
+                </ul>
+              </div>     
+              <!-- 法律链接等信息 -->
+              <div class="legal-links">
+                <a href="#">Privacy and Cookies</a>
+                <a href="#">Consumer Health Privacy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Trademarks</a>
+                <a href="#">About our ads</a>
+                <span>© 2025 Microsoft</span>
+                <a href="#">Your Privacy Choices</a>
+                <img src="images.7/Logo_ Microsoft.svg" alt="Microsoft Logo" class="microsoft-logo">
+              </div>
+              
+            </div>
+          </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-color: #070857;
+}
+.tuuu{
+    position: relative;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    gap: 27px;
+    background-color: #f0f1f2;
+}
+.tuuu img{
+    height: 32px;
+    width: 32px;
+}
+h1{
+    font-size: 15px;
+    color: rgb(5, 5, 144);
+}
+ul li{
+    display: inline;
+	padding: 30px 10px 30px 10px;
+    
+}
+ul{
+    margin-left: 900px;
+    margin-top: 80px;
+    line-height: 1;
+    line-height: 16px;
+}
+a:link {
+    color: rgb(250, 252, 250);
+  }
+a:hover {
+    color: rgb(250, 193, 5);
+}
+a{
+    text-decoration: none;
+}

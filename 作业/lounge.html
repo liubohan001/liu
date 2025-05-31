@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="duyu.css">
+    <title>Alstom</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuLinks = document.querySelectorAll('.main-menu li a');
+            const heroSection = document.querySelector('.hero');
+
+            menuLinks.forEach(link => {
+                link.addEventListener('mouseover', function () {
+                    heroSection.classList.add('show');
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">ALSTOM</a>
+        </div>
+        <ul class="main-menu">
+            <li><a href="#" class="active">Groupe</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Newsroom</a></li>
+            <li><a href="#">Finance</a></li>
+            <li><a href="#" target="_blank">Carrieres</a></li>
+        </ul>
+        <div class="user-options">
+            <select name="user-role">
+                <option value="">Je suis</option>
+                <option value="customer">Client</option>
+                <option value="partner">Partenaire</option>
+                <option value="lnvestisseur">lnvestisseur</option>
+                <option value="Fournisseur">Fournisseur</option>
+                <option value="Media">Media</option>
+                <option value="Passager">Passager</option>
+                <option value="Candidat">Candidat</option>
+            </select>
+            <select name="language">
+                <option value="fr">Fr</option>
+                <option value="en">En</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Leader mondial dune
+                    mobilite plus verte et plus
+                    intelligente</h1>
+                <p>Pour faire face aux
+                    enjeux de la mobilite de  demain,
+                    notre ambition pour nos clients et
+                    partenaires, est
+                    dimaginer et de
+                    developper pour eux des systemes de
+                    mobilite complets, les plus
+                    efficaces, intelligents et
+                    durables.</p>
+                <a href="#" class="btn">Linnovation au service
+                    de la mobilite durable</a>
+            </div>
+            <div class="sidebar">
+                <ul class="sidebar-menu">
+                    <li><a href="#" class="sub-menu-link">Chiffres-cles</a></li>
+                    <li><a href="#" class="sub-menu-link">Engagements</a></li>
+                    <li><a href="#" class="sub-menu-link">Linnovation chez Alstom</a></li>
+                    <li><a href="#" class="sub-menu-link">Gouvernance</a></li>
+                    <li><a href="#" class="sub-menu-link">Strategle</a></li>
+                </ul>
+                <div class="sidebar-content">
+                    <img src="innovation-image.png" alt="Innovation">
+                    <h3>Linnovation est un
+                        etat desprit collectif</h3>
+                    <p>Chez Alstom, nous
+                        innovons non seulement pour etre
+                        performants sur le plan
+                        operationnel...</p>
+                    <a href="#" class="btn">En
+                        savoir plus</a>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

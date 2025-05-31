@@ -1,0 +1,186 @@
+/* Global styles*/
+body{
+  font-family: Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header{
+  background-color: #f4f4f4;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center
+}
+
+.logo a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #000;
+}
+
+.main-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: initial; /* 可根据实际情况修改初始颜色 */
+    transition: all 0.3s ease; /* 添加过渡效果，让变化更平滑 */
+}
+
+/* 鼠标悬停样式 */
+.main-menu li a:hover {
+    color: #ff0000; /* 悬停时文字颜色变为红色，可按需修改 */
+    background-color: #f0f0f0; /* 悬停时背景颜色，可按需修改 */
+    transform: translateY(-2px); /* 悬停时向上移动 2px，增加交互感 */
+}
+
+nav ul.main-menu li{
+  margin-left: 20px;
+}
+
+nav ul.main-menu li a{
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav ul.main-menu li a .active{
+  color: #ff0000;
+}
+
+nav ul.main-menu li a :hover{
+  color: #ff0000;
+}
+
+.user-options{
+   display: flex;
+   align-items: center;
+}
+
+.user-options select {
+   margin-right: 10px;
+   padding: 5px;
+   broder:1px solid #ccc
+}
+
+.user-options a.icon-link {
+   margin-left: 10px;
+}
+
+.user-options a.icon-link img {
+   width: 20px;
+   height: 20px;
+}
+
+.hero{
+  display: none;
+  transition: opacity 0.3s ease; /* 添加过渡效果 */
+  opacity: 0; /* 初始透明度为 0 */
+}
+
+.hero.show {
+  display: block;
+  opacity: 1; /* 显示时透明度为 1 */
+  padding: 50px;
+}
+
+.hero-content {
+   flex:1;
+}
+
+.hero-content h1 {
+   font-size:24px;
+   margin-bottom: 20px;
+}
+   
+
+.hero-content p {
+   font-size: 16px;
+   line-height: 1.5;
+   margin-bottom: 30px;
+}
+
+.hero-content a.btn {
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #f4f4f4;
+   color: #333;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+}
+
+.hero-content a.btn:hover {
+   background-color: #ccc;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.sidebar ul.sidebar-menu {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.sidebar ul.sidebar-menu li{
+   margin-bottom: 10px;
+}
+
+.sidebar ul.sidebar-menu li
+a.sub-menu-link {
+   text-decoration: none;
+   color: #333;
+   transition: color 0.3s ease;
+}
+
+.sidebar ul.sidebar-menu li
+a.sub-menu-link.active{
+   color: #ff0000;
+}
+
+.sidebar-content {
+   display: none;
+   margin-top: 20px;
+}
+
+.sidebar-content img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 10px;
+}
+
+.sidebar-content h3 {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.sidebar-content p{
+   font-size: 14px;
+   line-height: 1.5;
+   margin-bottom: 20px;
+}
+
+.sidebar-content a.btn{
+   display: inline-block;
+   padding: 5px 10px;
+   background-color: #f4f4f4;
+   color: #ff0000;
+   text-decoration: none;
+   border-radius: 5px;
+   transition: background-color 0.3s ease;
+}
+
+.sidebar-content a.btn{
+   background-color: #ccc;
+}
