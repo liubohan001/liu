@@ -96,6 +96,15 @@ h5{
     text-align: center;
     padding-top: 10px;
 }
+h5:hover{
+    background-color: white;
+}
+h5 a:link{
+    color: aliceblue;
+}
+h5 a:hover{
+    color: rgb(5, 5, 144);
+}
 .mmmm{
     padding-left: 1020px;
     margin-top: -40px;
