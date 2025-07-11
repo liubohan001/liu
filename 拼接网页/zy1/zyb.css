@@ -1774,4 +1774,5 @@ a[href="https://example.com/link2"] {
 }
 body{
     background-color:rgb(27, 27, 27);
+    position: relative;
 }
